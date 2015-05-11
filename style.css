@@ -15,7 +15,7 @@ body{
 	max-width: 1440px;
 }
 .section1{
-	background-image: url('sky.gif');
+	background-image: url('img/sky.gif');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: relative;
@@ -76,7 +76,7 @@ body{
 	height: 27px;
 	display: block;
 	margin: 0 auto;
-	background: url('social.png');
+	background: url('img/social.png');
 }
 .section2{
 	background: #f5f6f7;
@@ -93,6 +93,11 @@ body{
 	position: relative;
 }
 .left{
+	width: 550px;
+	float: left;
+	height: 100%;
+}
+.left2{
 	width: 550px;
 	float: left;
 	height: 100%;
@@ -137,6 +142,7 @@ body{
 	background: white;
 	height: 490px;
 	width: 100%;
+	float: left;
 }
 .halfphone{
 	bottom: 0;
@@ -173,7 +179,7 @@ body{
 	max-width: 1440px;
 }
 .section5{
-	background: url('camphone.jpg');
+	background: url('img/camphone.jpg');
 	height: 884px;
 	width: 100%;
 	max-width: 1440px;
@@ -375,3 +381,724 @@ input{
 	top: -40px;
 	position: relative;
 }
+@media screen and (max-width: 640px){
+	.nav{
+		width: 640px;
+	}
+	.nav li{
+		margin: 0 18px;
+	}
+	.section1{
+		background-size: cover;
+		position: relative;
+		height: 100%;
+		background-position: center center;
+		float: left;
+	}
+	.social{
+		margin: 0 auto 7px;
+	}
+	.wrap{
+		margin: 0 10px;
+		width: 620px;
+	}
+	.section2, .section3, .section4, .section5, .section6{
+		max-width: 640px;
+	}
+	.section2{
+		overflow: hidden;
+	}
+	.section2 h2, .section3 h2{
+		margin-top: 30px;
+	}
+	.left{
+		width: 360px;
+		position: absolute;
+		z-index: 20;
+	}
+	.left2{
+		width: 317px;
+	}
+	.right{
+		width: 280px;
+		float: left;
+		height: 100%;
+		margin-left: 20px;
+	}
+	.section3 p{
+		float: left;
+		margin: 40px 0 20px;
+	}
+	.scroll{
+		margin-top: 16px;
+	}
+	.community{
+		width: 600px;
+		height: 184px;
+		text-align: center;
+		letter-spacing: 1px;
+		position: relative;
+		margin: 20px 0;
+		top: 0;
+	}
+	.community p{
+		width: 600px;
+		text-align: center;
+		float: none; 
+		margin: 0 auto;
+	}
+	.leaves{
+		display: none !important;
+	}
+	.gallery{
+		float: left;
+		margin: 0; 
+		height: 249px;
+		width: 550px;
+		position: relative;
+	}
+	.galArrows{
+		float: right;
+		position: relative;
+		right: 0; 
+		margin: 213px 47px 0;
+	}
+	.section5{
+		background: url('img/camphone.jpg');
+		height: 490px;
+		background-position: center center;
+		width: 100%;
+		max-width: 640px;
+		float: left;
+		background-repeat: no-repeat;
+	}
+	.section5 p{
+		margin-top: 200px;
+	}
+	.section6 p{
+		width: 600px;
+	}
+	.footer img{
+		right: 17px;
+		top: 50px;
+		position: absolute;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 768px){
+	.nav{
+		width: 768px;
+	}
+	.nav li{
+		margin: 0 30px;
+	}
+	.section1{
+		background-size: cover;
+		position: relative;
+		height: 100%;
+		background-position: center center;
+		float: left;
+	}
+	.social{
+		margin: 0 auto 7px;
+	}
+	.wrap{
+		margin: 0 10px;
+		width: 748px;
+	}
+	.section2, .section3, .section4, .section5, .section6{
+		max-width: 768px;
+	}
+	.section2{
+		overflow: hidden;
+	}
+	.phone1{
+		width: 668px;
+		float: right;
+	}
+	.section2 h2, .section3 h2{
+		margin-top: 30px;
+	}
+	.left{
+		width: 417px;
+		position: absolute;
+		z-index: 20;
+	}
+	.left2{
+		width: 317px;
+	}
+	.right{
+		width: 325px;
+		float: left;
+		height: 100%;
+		margin-left: 35px;
+	}
+	.section3 p{
+		float: left;
+		margin: 40px 0 20px;
+	}
+	.scroll{
+		margin-top: 16px;
+	}
+	.community{
+		width: 760px;
+		height: 174px;
+		text-align: center;
+		letter-spacing: 1px;
+		position: relative;
+		margin: 20px 0 0;
+		top: 0;
+	}
+	.community p{
+		width: 600px;
+		text-align: center;
+		float: none; 
+		margin: 0 auto;
+	}
+	.leaves{
+		display: block;
+	}
+	.gallery{
+		float: left;
+		margin: 0; 
+		height: 249px;
+		width: 760px;
+		position: relative;
+	}
+	.gallery img{
+		margin-right: 8px;
+	}
+	.galArrows{
+		float: right;
+		position: relative;
+		right: 0; 
+		margin: 0 47px;
+	}
+	.section5{
+		background: url('img/camphone.jpg');
+		height: 490px;
+		background-position: center center;
+		width: 100%;
+		max-width: 768px;
+		float: left;
+		background-repeat: no-repeat;
+	}
+	.section5 p{
+		margin-top: 200px;
+	}
+	.section6 p{
+		width: 600px;
+	}
+	.footer img{
+		right: 17px;
+		top: 50px;
+		position: absolute;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	.nav{
+		width: 768px;
+	}
+	.nav li{
+		margin: 0 30px;
+	}
+	.section1{
+		background-size: cover;
+		position: relative;
+		height: 100%;
+		background-position: center center;
+		float: left;
+	}
+	.social{
+		margin: 0 auto 7px;
+	}
+	.wrap{
+		margin: 0 20px;
+		width: 984px;
+	}
+	.section2, .section3, .section4, .section5, .section6{
+		max-width: 1024px;
+	}
+	.section2{
+		overflow: hidden;
+	}
+	.phone1{
+		width: 668px;
+		float: right;
+	}
+	.section2 h2, .section3 h2{
+		margin-top: 30px;
+	}
+	.left{
+		width: 417px;
+		position: absolute;
+		z-index: 20;
+		margin-top: 50px;
+	}
+	.left2{
+		width: 317px;
+	}
+	.right{
+		width: 500px;
+		float: left;
+		height: 100%;
+		margin: 50px 0 0 100px;
+	}
+	.section3 p{
+		float: left;
+		margin: 40px 0 20px;
+	}
+	.scroll{
+		margin-top: 16px;
+	}
+	.community{
+		width: 100%;
+		height: 174px;
+		text-align: center;
+		letter-spacing: 1px;
+		position: relative;
+		margin: 20px 0 0;
+		top: 0;
+		float: left;
+	}
+	.community p{
+		width: 600px;
+		text-align: center;
+		float: none; 
+		margin: 0 auto;
+	}
+	.leaves{
+		display: block;
+	}
+	.gallery{
+		float: none;
+		margin: 0 auto; 
+		height: 280px;
+		width: 760px;
+		clear: left;
+		position: relative;
+	}
+	.gallery img{
+		margin-right: 8px;
+	}
+	.galArrows{
+		float: right;
+		position: relative;
+		right: 0; 
+		margin: 0 47px;
+	}
+	.section5{
+		background: url('img/camphone.jpg');
+		height: 490px;
+		background-position: center center;
+		width: 100%;
+		max-width: 1024px;
+		float: left;
+		background-repeat: no-repeat;
+	}
+	.section5 p{
+		margin-top: 200px;
+	}
+	.section6 p{
+		width: 600px;
+	}
+	.footer{
+		max-width: 1024px;
+	}
+	.footer img{
+		right: 17px;
+		top: 50px;
+		position: absolute;
+	}
+}
+	/*@font-face {
+    font-family: gotham;
+    src: url(gotham.ttf);
+}
+	@font-face{
+		font-family: gotham-light;
+		src: url('gotham-light.ttf');
+	}
+	*{
+		margin: 0;
+	}
+	body{
+		font-family: 'gotham';
+		margin: 0;
+		max-width: 1024px;
+	}
+	.section1{
+		background-image: url('img/sky.gif');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		position: relative;
+		height: 745px;
+		float: left;
+		width: 100%;
+	}
+	.nav{
+		width: 1024px;
+		margin: 0 auto;
+		margin-top: 10px;
+		position: relative;
+	}
+	.nav li{
+		list-style: none;
+		color: white;
+		display: inline-block;
+		margin: 0 50px;
+		position: relative;
+	}
+	.hero{
+		width: 600px;
+		height: 365px;
+		margin: 270px auto 0;
+		color: white;
+		text-align: center;
+	}
+	.hero h1{
+		letter-spacing: 5px;
+		display: block;
+		font-size: 38px;
+	}
+	.hero h4{
+		letter-spacing: 3px;
+		font-size: 15px;
+		font-family: 'gotham-light';
+		display: block;
+		margin-top: 10px;
+	}
+	.button{
+		background: #16a085;
+	  	color: white;
+	  	text-decoration: none;
+	  	display: block;
+	  	font-size: 11px;
+	  	font-family: 'gotham';
+	  	border-radius: 3px;
+	  	padding: 15px 0;
+	  	width: 165px;
+	  	height: 13px;
+	  	text-align: center;
+	}
+	.started{
+		margin: 20px auto;
+	}
+	.social{
+		width: 100px;
+		height: 27px;
+		display: block;
+		margin: 0 auto;
+		background: url('img/social.png');
+	}
+	.section2{
+		background: #f5f6f7;
+		height: 490px;
+		float: left;
+		width: 100%;
+		max-width: 1024px;
+	}
+	.wrap{
+		margin: 0 30px;
+		width: 1024px;
+		float: left;
+		height: 100%;
+		position: relative;
+	}
+	.left{
+		width: 550px;
+		float: left;
+		height: 100%;
+	}
+	.left2{
+		width: 550px;
+		float: left;
+		height: 100%;
+	}
+	.right{
+		width: 550px;
+		float: right;
+		height: 100%;
+	}
+	.section2 h2, .section3 h2{
+		color: #16a085;
+		font-size: 23px;
+		margin-top: 100px;
+		display: block;
+		width: 100%;
+		float: left;
+		letter-spacing: 3px;
+		line-height: 28px;
+	}
+	.section2 p, .section3 p, .section4 p{
+		display: block;
+		float: left;
+		margin: 40px 0;
+		line-height: 33px;
+		font-family: 'gotham-light';
+	}
+	.started2{
+		float: left;
+	
+	.phone1{
+		width: 668px;
+		float: right;
+		position: absolute;
+		right: 0;
+	}
+	.section3{
+		background: white;
+		height: 490px;
+		width: 100%;
+		float: left;
+	}
+	.halfphone{
+		bottom: 0;
+		display: block;
+		position: absolute;
+	}
+	.scroll{
+		color: black;
+		height: 1em;
+		font-size: 14px;
+		margin-top: 30px;
+		clear: left;
+		float: left;
+	}
+	.arrowL{
+		font-size: 30px;
+	  	color: black;
+	  	font-family: 'gotham-light';
+	  	float: left;
+	  	clear: left;
+	}
+	.arrowR{
+		font-size: 30px;
+	  	color: black;
+	  	font-family: 'gotham-light';
+	  	float: left;
+	  	margin-left: 10px;
+	}
+	.section4{
+		background: #f5f6f7;
+		height: 490px;
+		float: left;
+		width: 100%;
+		max-width: 1024px;
+	}
+	.section5{
+		background: url('img/camphone.jpg');
+		height: auto;
+		width: 100%;
+		max-width: 1024px;
+		float: left;
+		background-position: center center;
+	}
+	.community{
+		width: 261px;
+		height: 244px;
+		text-align: center;
+		float: left;
+		top: 120px;
+		letter-spacing: 1px;
+		position: relative;
+		margin:0 63px;
+	}
+	.community h2{
+		margin: 20px 0;
+	}
+	.community p{
+		width: 261px;
+	  	text-align: center;
+	  	float: left;
+	  	margin: 0;
+	}
+	.gallery{
+		float: left;
+	  	margin: 90px 0;
+	  	height: 249px;
+	  	width: 801px;
+	  	position: relative;
+	}
+	.galImg{
+		position: relative;
+		float: left;
+	}
+	.gallery img{
+		display: block;
+		margin-right: 30px;
+		float: left;
+	}
+	.galArrows{
+		float: right;
+		position: relative;
+		right: 30px;
+	}
+	.section5 p{
+		color: white;
+	  	font-size: 23px;
+	  	display: block;
+	  	width: 100%;
+	  	text-align: center;
+	 	height: 29px;
+	 	margin-top: 350px;
+	 	position: relative;
+	}
+	.formGroup{
+		position: relative;
+		display: block;
+		margin: 20px auto;
+		width: 294px;
+		height: 42px;
+	}
+	input{
+		height: 40px;
+	  width: 250px;
+	  border-radius: 5px;
+	  border: none;
+	  position: relative;
+	  float: left;
+	  font-size: 14px;
+	  color: black;
+	  font-family: 'gotham-light';
+	}
+	.check{
+		position: relative;
+	  	height: 42px;
+	  	float: left;
+	  	left: -41px;
+	  	width: 42px;
+	  	background: #16a085;
+	  	border-radius: 0 5px 5px 0;
+	}
+	.check img{
+		display: block;
+		height: 17px;
+		width: 20px;
+		position: relative;
+		margin: 12px auto;
+	}
+	.section6{
+		height: 400px;
+		width: 100%;
+		max-width: 1024px;
+		background: #f5f6f7;
+		float: left;
+	}
+	.section6 h2{
+		font-size: 23px;
+		text-align: center;
+		color: black;
+		margin-top: 90px;
+		display: block;
+	}
+	.section6 p{
+		display: block;
+		width: 835px;
+		margin: 10px auto;
+		text-align: center;
+		line-height: 33px;
+		font-family: 'gotham-light';
+	}
+	.downloads{
+		width: 615px;
+		height: 55px;
+		margin: 20px auto;
+	}
+	.downloads h3{
+		width: 188px;
+	  height: 36px;
+	  display: block;
+	  float: left;
+	  text-align: center;
+	  font-size: 16px;
+	  padding-top: 19px; 
+	}
+	.apple{
+		width: 290px;
+		height: 55px;
+		background: #1abc9c;
+		border-radius: 3px;
+		float: left;
+		color: white;
+		font-family: 'gotham';
+	}
+	.appleImg{
+		float: right;
+		height: 55px;
+		width: 55px;
+		border-radius: 0 3px 3px 0;
+		background: #16a085;
+	}
+	.android{
+		float: right;
+		width: 290px;
+		height: 55px;
+		background: #1abc9c;
+		border-radius: 3px;
+		font-family: 'gotham';
+		color: white;
+	}
+	.android h3, .apple h3{
+		color: white;
+	}
+	.droidImg{
+		float: right;
+		height: 55px;
+		width: 55px;
+		border-radius: 0 3px 3px 0;
+		background: #16a085;
+	}
+	.appleImg img, .android img{
+		display: block;
+		margin: 12px auto;
+	}
+	.footer{
+		height: 130px;
+		width: 100%;
+		max-width: 1440px;
+		float: left;
+	}
+	.footer ul{
+		width: 300px;
+		height: 19px;
+		margin: 45px 0 20px;
+		display: block;
+		float: left;
+		padding: 0;
+	}
+	.footer li{
+		font-size: 16px;
+		list-style: none;
+		display: inline-block;
+	}
+	.greenborder{
+		padding: 0px 9px;
+		border-left: 2px solid #1abc9c;
+		border-right: 2px solid #1abc9c;
+		margin: 0 4px;
+	}
+	.footer p{
+		display: block;
+		clear: left;
+		float: left;
+	}
+	.footer img{
+		display: block;
+		float: right;
+		top: -40px;
+		position: relative;
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
